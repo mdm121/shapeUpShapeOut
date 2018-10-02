@@ -1,0 +1,21 @@
+.shapeBox {
+    background-color: darkcyan;
+    height: 600px;
+    width: 600px;
+}
+
+.sidePanel {
+    background-color: cadetblue;
+    height: 400px;
+    width: 300px;
+}
+
+form {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 400px;
+}
+
+div {
+    
+}
