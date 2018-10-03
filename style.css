@@ -2,6 +2,8 @@
     background-color: darkcyan;
     height: 600px;
     width: 600px;
+    margin: 0 auto;
+
 }
 
 .sidePanel {
@@ -13,9 +15,34 @@
 form {
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 400px;
 }
 
-div {
+#container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     
+}
+
+#rectangle {
+	background: red;
+}
+
+#circle {
+    position: relative;
+    text-align: center;
+    transform: translateY(-50%);
+	background: red;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-bottom: solid red;
+	border-right: solid transparent;
+}
+
+#square {
+	background: red;
 }

@@ -9,35 +9,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="formBox"> 
-            <form type="text">
+    <div class="container-fluid" id="container">
+
+        <div class="formBox col-2"> 
+            <form type="text" id="form1">
                 <input type="text" name="width" placeholder="Width" id="rectWidth">
                 <input type="text" name="height" placeholder="Height" id="rectHeight">
-                <button type="submit" id="rectButton">Insert Rectangle!</button>
+                <button id="rectBtn">Insert Rectangle!</button>
             </form>
             
-            <form type="text">
-                <input type="text" name="sideLength" placeholder="Side Length" id="squareLength">
-                <button type="submit">Insert Square!</button>
+            <form type="text" id="form2">
+                <input type="text" name="sideLength" placeholder="Side Length" id="sqLength">
+                <button id="sqBtn">Insert Square!</button>
             </form>
 
-            <form type="text">
+            <form type="text" id="form3">
                 <input type="text" name="radius" placeholder="Radius" id="circleRadius">
-                <button type="submit">Insert Circle!</button>
+                <button id="circleBtn">Insert Circle!</button>
             </form>
 
-            <form type="text">
+            <form type="text" id="form4">
                 <input type="text" name="height" placeholder="Height" id="triHeight">
-                <button type="submit">Insert Isosceles Right Triangle!</button>
+                <button id="triBtn">Insert Isosceles Right Triangle!</button>
             </form>
         </div>
 
-        <div class="shapeBox">
-            
+        <div class="col-6">
+        <div class="shapeBox" id="box"></div>
+
         </div>
-        
-        <div class="sidePanel">
+        <div class="sidePanel col-2" id="Panel">
             <ul class="shapeStats">
                 <li>Shape Name: <span id="shapeName"></span></li>
                 <li>Width: <span id="shapeWidth"></span></li>
